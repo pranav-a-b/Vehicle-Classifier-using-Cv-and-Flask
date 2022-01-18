@@ -125,9 +125,9 @@ def gen():
                 #Closing (dilate->erode) to join white region
                 mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernelCl)
                 mask2 = cv2.morphologyEx(mask2, cv2.MORPH_CLOSE, kernelCl)
-                cv2.imshow('Image Threshold', cv2.resize(fgmask, (400, 300)))
+                #cv2.imshow('Image Threshold', cv2.resize(fgmask, (400, 300)))
                 # cv2.imshow('Image Threshold2', cv2.resize(fgmask2, (400, 300)))
-                cv2.imshow('Masked Image', cv2.resize(mask, (400, 300)))
+                #cv2.imshow('Masked Image', cv2.resize(mask, (400, 300)))
                 # cv2.imshow('Masked Image2', cv2.resize(mask2, (400, 300)))
             except:
                 #If there is no more frames to show...
@@ -142,7 +142,7 @@ def gen():
         
             contours0, hierarchy = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
             for cnt in contours0:
-                cv2.drawContours(frame, cnt, -1, (0,255,0), 3, 8)
+                #cv2.drawContours(frame, cnt, -1, (0,255,0), 3, 8)
                 area = cv2.contourArea(cnt)
                 # print area," ",areaTH
                 # if area > areaTH and area < 20000:
