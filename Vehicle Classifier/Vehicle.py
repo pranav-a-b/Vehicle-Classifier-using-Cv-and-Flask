@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 13 13:59:59 2017
-
-@author: philanderz
-"""
 
 from random import randint
 import time
