@@ -11,4 +11,5 @@ use above command to install required opencv version for the project
 it maps the height,width of the vehicle shown in the project and classifies according to the ratio between different classes
 
 Here is the image of the output after deploying.
-![image](https://user-images.githubusercontent.com/86347637/149987858-1a995118-dd9d-4055-beee-a6d81f90f96d.png)
+
+![image](https://user-images.githubusercontent.com/86347637/150071725-81d3dcf5-bc13-460d-84ba-831367e02f17.png)
